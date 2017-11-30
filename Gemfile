@@ -7,8 +7,6 @@ end
 
 #JQuery (Bootstrap depends on this to function properly)
 gem 'jquery-rails'
-#Bootstrap
-gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
@@ -17,6 +15,9 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+#Bootstrap
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'autoprefixer-rails', '~>7.1.6'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
